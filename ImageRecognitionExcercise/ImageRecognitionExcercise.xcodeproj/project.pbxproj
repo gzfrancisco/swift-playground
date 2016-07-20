@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09F9AA3519B50AC2000BB7C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F9AA3419B50AC2000BB7C9 /* Foundation.framework */; };
+		09F9AA3719B50AC2000BB7C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F9AA3619B50AC2000BB7C9 /* CoreGraphics.framework */; };
+		09F9AA3919B50AC2000BB7C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F9AA3819B50AC2000BB7C9 /* UIKit.framework */; };
+		09F9AA3F19B50AC2000BB7C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09F9AA3D19B50AC2000BB7C9 /* InfoPlist.strings */; };
+		09F9AA4119B50AC2000BB7C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F9AA4019B50AC2000BB7C9 /* main.m */; };
+		09F9AA4519B50AC2000BB7C9 /* ACTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F9AA4419B50AC2000BB7C9 /* ACTAppDelegate.m */; };
+		09F9AA4819B50AC2000BB7C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F9AA4619B50AC2000BB7C9 /* Main.storyboard */; };
+		09F9AA4B19B50AC2000BB7C9 /* ACTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F9AA4A19B50AC2000BB7C9 /* ACTViewController.m */; };
+		09F9AA4D19B50AC2000BB7C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09F9AA4C19B50AC2000BB7C9 /* Images.xcassets */; };
+		09F9AA5419B50AC2000BB7C9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F9AA5319B50AC2000BB7C9 /* XCTest.framework */; };
+		09F9AA5519B50AC2000BB7C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F9AA3419B50AC2000BB7C9 /* Foundation.framework */; };
+		09F9AA5619B50AC2000BB7C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F9AA3819B50AC2000BB7C9 /* UIKit.framework */; };
+		09F9AA5E19B50AC2000BB7C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09F9AA5C19B50AC2000BB7C9 /* InfoPlist.strings */; };
+		09F9AA6019B50AC2000BB7C9 /* ImageRecognitionExcerciseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F9AA5F19B50AC2000BB7C9 /* ImageRecognitionExcerciseTests.m */; };
+		09F9AA6B19B50CEC000BB7C9 /* ACTRecognitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F9AA6A19B50CEC000BB7C9 /* ACTRecognitionViewController.m */; };
+		09F9AA6D19B513AC000BB7C9 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F9AA6C19B513AC000BB7C9 /* opencv2.framework */; };
+		09F9AA6F19B523D9000BB7C9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F9AA6E19B523D9000BB7C9 /* AVFoundation.framework */; };
+		09F9AA7119B52400000BB7C9 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F9AA7019B52400000BB7C9 /* ImageIO.framework */; };
+		09F9AA7319B5240C000BB7C9 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F9AA7219B5240C000BB7C9 /* CoreImage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09F9AA5719B50AC2000BB7C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09F9AA2919B50AC2000BB7C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09F9AA3019B50AC2000BB7C9;
+			remoteInfo = ImageRecognitionExcercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09F9AA3119B50AC2000BB7C9 /* ImageRecognitionExcercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageRecognitionExcercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09F9AA3419B50AC2000BB7C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09F9AA3619B50AC2000BB7C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		09F9AA3819B50AC2000BB7C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		09F9AA3C19B50AC2000BB7C9 /* ImageRecognitionExcercise-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageRecognitionExcercise-Info.plist"; sourceTree = "<group>"; };
+		09F9AA3E19B50AC2000BB7C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09F9AA4019B50AC2000BB7C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09F9AA4219B50AC2000BB7C9 /* ImageRecognitionExcercise-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageRecognitionExcercise-Prefix.pch"; sourceTree = "<group>"; };
+		09F9AA4319B50AC2000BB7C9 /* ACTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACTAppDelegate.h; sourceTree = "<group>"; };
+		09F9AA4419B50AC2000BB7C9 /* ACTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACTAppDelegate.m; sourceTree = "<group>"; };
+		09F9AA4719B50AC2000BB7C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09F9AA4919B50AC2000BB7C9 /* ACTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACTViewController.h; sourceTree = "<group>"; };
+		09F9AA4A19B50AC2000BB7C9 /* ACTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACTViewController.m; sourceTree = "<group>"; };
+		09F9AA4C19B50AC2000BB7C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		09F9AA5219B50AC2000BB7C9 /* ImageRecognitionExcerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageRecognitionExcerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09F9AA5319B50AC2000BB7C9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		09F9AA5B19B50AC2000BB7C9 /* ImageRecognitionExcerciseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageRecognitionExcerciseTests-Info.plist"; sourceTree = "<group>"; };
+		09F9AA5D19B50AC2000BB7C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09F9AA5F19B50AC2000BB7C9 /* ImageRecognitionExcerciseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageRecognitionExcerciseTests.m; sourceTree = "<group>"; };
+		09F9AA6919B50CEC000BB7C9 /* ACTRecognitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACTRecognitionViewController.h; sourceTree = "<group>"; };
+		09F9AA6A19B50CEC000BB7C9 /* ACTRecognitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACTRecognitionViewController.m; sourceTree = "<group>"; };
+		09F9AA6C19B513AC000BB7C9 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../Downloads/opencv2.framework; sourceTree = "<group>"; };
+		09F9AA6E19B523D9000BB7C9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		09F9AA7019B52400000BB7C9 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		09F9AA7219B5240C000BB7C9 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09F9AA2E19B50AC2000BB7C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F9AA7319B5240C000BB7C9 /* CoreImage.framework in Frameworks */,
+				09F9AA7119B52400000BB7C9 /* ImageIO.framework in Frameworks */,
+				09F9AA6F19B523D9000BB7C9 /* AVFoundation.framework in Frameworks */,
+				09F9AA3719B50AC2000BB7C9 /* CoreGraphics.framework in Frameworks */,
+				09F9AA3919B50AC2000BB7C9 /* UIKit.framework in Frameworks */,
+				09F9AA6D19B513AC000BB7C9 /* opencv2.framework in Frameworks */,
+				09F9AA3519B50AC2000BB7C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F9AA4F19B50AC2000BB7C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F9AA5419B50AC2000BB7C9 /* XCTest.framework in Frameworks */,
+				09F9AA5619B50AC2000BB7C9 /* UIKit.framework in Frameworks */,
+				09F9AA5519B50AC2000BB7C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09F9AA2819B50AC2000BB7C9 = {
+			isa = PBXGroup;
+			children = (
+				09F9AA3A19B50AC2000BB7C9 /* ImageRecognitionExcercise */,
+				09F9AA5919B50AC2000BB7C9 /* ImageRecognitionExcerciseTests */,
+				09F9AA3319B50AC2000BB7C9 /* Frameworks */,
+				09F9AA3219B50AC2000BB7C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09F9AA3219B50AC2000BB7C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09F9AA3119B50AC2000BB7C9 /* ImageRecognitionExcercise.app */,
+				09F9AA5219B50AC2000BB7C9 /* ImageRecognitionExcerciseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09F9AA3319B50AC2000BB7C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09F9AA7219B5240C000BB7C9 /* CoreImage.framework */,
+				09F9AA7019B52400000BB7C9 /* ImageIO.framework */,
+				09F9AA6E19B523D9000BB7C9 /* AVFoundation.framework */,
+				09F9AA6C19B513AC000BB7C9 /* opencv2.framework */,
+				09F9AA3419B50AC2000BB7C9 /* Foundation.framework */,
+				09F9AA3619B50AC2000BB7C9 /* CoreGraphics.framework */,
+				09F9AA3819B50AC2000BB7C9 /* UIKit.framework */,
+				09F9AA5319B50AC2000BB7C9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09F9AA3A19B50AC2000BB7C9 /* ImageRecognitionExcercise */ = {
+			isa = PBXGroup;
+			children = (
+				09F9AA4319B50AC2000BB7C9 /* ACTAppDelegate.h */,
+				09F9AA4419B50AC2000BB7C9 /* ACTAppDelegate.m */,
+				09F9AA4619B50AC2000BB7C9 /* Main.storyboard */,
+				09F9AA4919B50AC2000BB7C9 /* ACTViewController.h */,
+				09F9AA4A19B50AC2000BB7C9 /* ACTViewController.m */,
+				09F9AA4C19B50AC2000BB7C9 /* Images.xcassets */,
+				09F9AA3B19B50AC2000BB7C9 /* Supporting Files */,
+				09F9AA6919B50CEC000BB7C9 /* ACTRecognitionViewController.h */,
+				09F9AA6A19B50CEC000BB7C9 /* ACTRecognitionViewController.m */,
+			);
+			path = ImageRecognitionExcercise;
+			sourceTree = "<group>";
+		};
+		09F9AA3B19B50AC2000BB7C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09F9AA3C19B50AC2000BB7C9 /* ImageRecognitionExcercise-Info.plist */,
+				09F9AA3D19B50AC2000BB7C9 /* InfoPlist.strings */,
+				09F9AA4019B50AC2000BB7C9 /* main.m */,
+				09F9AA4219B50AC2000BB7C9 /* ImageRecognitionExcercise-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09F9AA5919B50AC2000BB7C9 /* ImageRecognitionExcerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				09F9AA5F19B50AC2000BB7C9 /* ImageRecognitionExcerciseTests.m */,
+				09F9AA5A19B50AC2000BB7C9 /* Supporting Files */,
+			);
+			path = ImageRecognitionExcerciseTests;
+			sourceTree = "<group>";
+		};
+		09F9AA5A19B50AC2000BB7C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09F9AA5B19B50AC2000BB7C9 /* ImageRecognitionExcerciseTests-Info.plist */,
+				09F9AA5C19B50AC2000BB7C9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09F9AA3019B50AC2000BB7C9 /* ImageRecognitionExcercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09F9AA6319B50AC2000BB7C9 /* Build configuration list for PBXNativeTarget "ImageRecognitionExcercise" */;
+			buildPhases = (
+				09F9AA2D19B50AC2000BB7C9 /* Sources */,
+				09F9AA2E19B50AC2000BB7C9 /* Frameworks */,
+				09F9AA2F19B50AC2000BB7C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageRecognitionExcercise;
+			productName = ImageRecognitionExcercise;
+			productReference = 09F9AA3119B50AC2000BB7C9 /* ImageRecognitionExcercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09F9AA5119B50AC2000BB7C9 /* ImageRecognitionExcerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09F9AA6619B50AC2000BB7C9 /* Build configuration list for PBXNativeTarget "ImageRecognitionExcerciseTests" */;
+			buildPhases = (
+				09F9AA4E19B50AC2000BB7C9 /* Sources */,
+				09F9AA4F19B50AC2000BB7C9 /* Frameworks */,
+				09F9AA5019B50AC2000BB7C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09F9AA5819B50AC2000BB7C9 /* PBXTargetDependency */,
+			);
+			name = ImageRecognitionExcerciseTests;
+			productName = ImageRecognitionExcerciseTests;
+			productReference = 09F9AA5219B50AC2000BB7C9 /* ImageRecognitionExcerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09F9AA2919B50AC2000BB7C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ACT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Activ Developing Experiences";
+				TargetAttributes = {
+					09F9AA5119B50AC2000BB7C9 = {
+						TestTargetID = 09F9AA3019B50AC2000BB7C9;
+					};
+				};
+			};
+			buildConfigurationList = 09F9AA2C19B50AC2000BB7C9 /* Build configuration list for PBXProject "ImageRecognitionExcercise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09F9AA2819B50AC2000BB7C9;
+			productRefGroup = 09F9AA3219B50AC2000BB7C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09F9AA3019B50AC2000BB7C9 /* ImageRecognitionExcercise */,
+				09F9AA5119B50AC2000BB7C9 /* ImageRecognitionExcerciseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09F9AA2F19B50AC2000BB7C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F9AA4D19B50AC2000BB7C9 /* Images.xcassets in Resources */,
+				09F9AA3F19B50AC2000BB7C9 /* InfoPlist.strings in Resources */,
+				09F9AA4819B50AC2000BB7C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F9AA5019B50AC2000BB7C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F9AA5E19B50AC2000BB7C9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09F9AA2D19B50AC2000BB7C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F9AA4B19B50AC2000BB7C9 /* ACTViewController.m in Sources */,
+				09F9AA6B19B50CEC000BB7C9 /* ACTRecognitionViewController.m in Sources */,
+				09F9AA4119B50AC2000BB7C9 /* main.m in Sources */,
+				09F9AA4519B50AC2000BB7C9 /* ACTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F9AA4E19B50AC2000BB7C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F9AA6019B50AC2000BB7C9 /* ImageRecognitionExcerciseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09F9AA5819B50AC2000BB7C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09F9AA3019B50AC2000BB7C9 /* ImageRecognitionExcercise */;
+			targetProxy = 09F9AA5719B50AC2000BB7C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09F9AA3D19B50AC2000BB7C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09F9AA3E19B50AC2000BB7C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		09F9AA4619B50AC2000BB7C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09F9AA4719B50AC2000BB7C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09F9AA5C19B50AC2000BB7C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09F9AA5D19B50AC2000BB7C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09F9AA6119B50AC2000BB7C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09F9AA6219B50AC2000BB7C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09F9AA6419B50AC2000BB7C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/gzfrancisco/Downloads,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageRecognitionExcercise/ImageRecognitionExcercise-Prefix.pch";
+				INFOPLIST_FILE = "ImageRecognitionExcercise/ImageRecognitionExcercise-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		09F9AA6519B50AC2000BB7C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/gzfrancisco/Downloads,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageRecognitionExcercise/ImageRecognitionExcercise-Prefix.pch";
+				INFOPLIST_FILE = "ImageRecognitionExcercise/ImageRecognitionExcercise-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		09F9AA6719B50AC2000BB7C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImageRecognitionExcercise.app/ImageRecognitionExcercise";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageRecognitionExcercise/ImageRecognitionExcercise-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ImageRecognitionExcerciseTests/ImageRecognitionExcerciseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		09F9AA6819B50AC2000BB7C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImageRecognitionExcercise.app/ImageRecognitionExcercise";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageRecognitionExcercise/ImageRecognitionExcercise-Prefix.pch";
+				INFOPLIST_FILE = "ImageRecognitionExcerciseTests/ImageRecognitionExcerciseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09F9AA2C19B50AC2000BB7C9 /* Build configuration list for PBXProject "ImageRecognitionExcercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F9AA6119B50AC2000BB7C9 /* Debug */,
+				09F9AA6219B50AC2000BB7C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09F9AA6319B50AC2000BB7C9 /* Build configuration list for PBXNativeTarget "ImageRecognitionExcercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F9AA6419B50AC2000BB7C9 /* Debug */,
+				09F9AA6519B50AC2000BB7C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09F9AA6619B50AC2000BB7C9 /* Build configuration list for PBXNativeTarget "ImageRecognitionExcerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F9AA6719B50AC2000BB7C9 /* Debug */,
+				09F9AA6819B50AC2000BB7C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09F9AA2919B50AC2000BB7C9 /* Project object */;
+}
